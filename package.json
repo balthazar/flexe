@@ -1,0 +1,8 @@
+{
+  "name": "flexe",
+  "version": "0.0.0",
+  "main": "src",
+  "peerDependencies": {
+    "styled-components": "^5.3.1"
+  }
+}
