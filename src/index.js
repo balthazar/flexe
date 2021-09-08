@@ -1,4 +1,4 @@
-const styled = require('styled-components')
+const styled = require('styled-components').default
 
 const Flex = styled.div`
   display: flex;
