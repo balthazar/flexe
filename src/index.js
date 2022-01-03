@@ -4,6 +4,7 @@ const Flex = styled.div`
   display: flex;
 
   ${p => (p.f1 ? 'flex: 1' : '')};
+  ${p => (p.sk0 ? 'flex-shrink: 0' : '')};
   ${p => (p.fw ? 'flex-wrap: wrap' : '')};
 
   ${p => (p.fdc ? 'flex-direction: column' : '')};

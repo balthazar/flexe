@@ -1,6 +1,6 @@
 {
   "name": "flexe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src",
   "peerDependencies": {
     "styled-components": "^5.3.1"
