@@ -6,6 +6,7 @@ const Flex = styled.div`
   ${p => (p.f1 ? 'flex: 1' : '')};
   ${p => (p.sk0 ? 'flex-shrink: 0' : '')};
   ${p => (p.fw ? 'flex-wrap: wrap' : '')};
+  ${p => (p.fg ? 'flex-grow: 1' : '')};
 
   ${p => (p.fdc ? 'flex-direction: column' : '')};
   ${p => (p.fdcr ? 'flex-direction: column-reverse' : '')};
@@ -31,6 +32,7 @@ const Flex = styled.div`
 
   ${p => (p.margin ? `margin: ${p.margin}px;` : '')};
   ${p => (p.padding ? `padding: ${p.padding}px;` : '')};
+  ${p => (p.gap ? `gap: ${p.gap}px;` : '')};
 
   ${p =>
     p.cm
